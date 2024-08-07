@@ -14,7 +14,6 @@
 .hover-underline:hover::after {
   opacity: 1;
 }
-
 .hover-underline--feature::after {
   content: "";
   display: block;
@@ -67,8 +66,55 @@
   }
 }
 
+@media (max-width: 968px) {
+  .navbar__list {
+    display: none !important;
+  }
+  .header__nav {
+    display: none !important;
+  }
+  .mobile__nav {
+    display: block !important;
+  }
+  .sidebar__mobile {
+    display: block !important;
+  }
+}
+.mobile__nav {
+  display: none;
+}
+.sidebar__mobile {
+  display: none;
+}
+
 @media (min-width: 1432px) {
   .custom-width {
     width: 1300px;
   }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOut {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.sidebar-open {
+  animation: slideIn 0.3s forwards;
+}
+
+.sidebar-close {
+  animation: slideOut 0.3s forwards;
 }

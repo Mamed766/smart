@@ -3,7 +3,7 @@ import { featuresDropdownData } from "../static/mockdb";
 
 const Dropdown = () => {
   return (
-    <ul className="dropdown absolute top-[40px] left-[-250%] fade-in bg-white p-3 shadow-lg border border-t-0 rounded hidden group-hover:flex custom-width flex-wrap">
+    <ul className="dropdown absolute top-[40px] left-[-250%] z-50 fade-in bg-white p-3 shadow-lg border border-t-0 rounded hidden group-hover:flex custom-width flex-wrap">
       {featuresDropdownData.map((item, index) => (
         <li className="menu-item w-[20%] p-2" key={index}>
           <div className="flex flex-col gap-2">

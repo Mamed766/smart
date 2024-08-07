@@ -6,10 +6,11 @@ import NavFeature from "../atoms/NavFeature";
 import NavTechnology from "../atoms/NavTechnology";
 import NavGadgets from "../atoms/NavGadgets";
 import NavTheme from "../atoms/NavTheme";
+import "../featured/Header/header.scss";
 
 const NavList = () => {
   return (
-    <ul className="flex items-center gap-3">
+    <ul className="navbar__list flex items-center gap-3 ">
       <NavHome />
       <li className="flex items-center gap-1 cursor-pointer relative  p-2 group">
         <ul className="flex items-center gap-3">

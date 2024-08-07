@@ -13,4 +13,11 @@
   .container__default {
     @apply max-w-[1440px] mx-auto;
   }
+  .custom__card--img {
+    @apply object-cover rounded-lg cursor-pointer hover:scale-110 duration-300  card-gradient;
+  }
+}
+
+.card-gradient {
+  background: linear-gradient(to top, #000000, rgba(0, 0, 0, 0.7));
 }
