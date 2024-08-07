@@ -1,6 +1,7 @@
 import React from "react";
 import { FaClock } from "react-icons/fa";
 import { asideCardsData } from "../static/mockdb";
+import getTypeTextColor from "../helper/textColor";
 
 const AsideCards = () => {
   return (
@@ -11,7 +12,9 @@ const AsideCards = () => {
             key={index}
             className="my-3 border-b-[1px]   border-gray-300  pb-2"
           >
-            <h3 className="text-[#3C3FDE] font-bold">{data.type}</h3>
+            <h3 className={`${getTypeTextColor(data.type)} font-bold`}>
+              {data.type}
+            </h3>
             <div className="flex items-center justify-between  gap-2">
               <div>
                 <p className="w-[200px] full  font-bold hover:text-[#3C3FDE] duration-300 cursor-pointer">
