@@ -1,15 +1,16 @@
 import React from "react";
 import "./card.style.scss";
 import CustomCard from "../molekuls/CustomCard";
-import { TbSquareRotatedFilled } from "react-icons/tb";
 import CustomMiniCard from "../molekuls/CustomMiniCard";
+import { FaClock } from "react-icons/fa";
+import AsideCards from "../molekuls/AsideCards";
 
 const Cards = () => {
   return (
     <>
       <div className="container__default mt-5">
-        <div>
-          <div>
+        <div className="flex gap-10">
+          <div className="w-[60%]">
             <CustomCard
               type={"GADGETS"}
               descUp={"Save $25 on Philips Wired Headphone For A"}
@@ -19,10 +20,10 @@ const Cards = () => {
               image={
                 "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/Depositphotos_29247013_xl-2015-2-1024x683.jpg"
               }
-              cardWidth={56}
+              cardWidth={100}
             />
 
-            <div className="flex gap-[2rem] w-[56%]">
+            <div className="flex gap-[2rem] w-[100%]">
               <CustomMiniCard
                 type={"TECHNOLOGY"}
                 image={
@@ -34,9 +35,9 @@ const Cards = () => {
                 author={"Shane Doe"}
                 date={"Jan 11,2020"}
                 cardHeight={30}
-                cardWidth={24}
+                cardWidth={50}
                 imageHeight={13}
-                imageWidth={24}
+                imageWidth={30}
               />
               <CustomMiniCard
                 type={"TECHNOLOGY"}
@@ -49,14 +50,23 @@ const Cards = () => {
                 author={"Shane Doe"}
                 date={"Jan 11,2020"}
                 cardHeight={30}
-                cardWidth={24}
+                cardWidth={50}
                 imageHeight={13}
-                imageWidth={24}
+                imageWidth={60}
               />
             </div>
           </div>
+          <div className="flex ml-5 flex-col">
+            <div>
+              <h2 className="border-b-[1px] w-[20rem] border-gray-300 font-bold">
+                People's Favorite
+              </h2>
+              <div className="flex flex-col">
+                <AsideCards />
+              </div>
+            </div>
+          </div>
         </div>
-        <div></div>
       </div>
     </>
   );

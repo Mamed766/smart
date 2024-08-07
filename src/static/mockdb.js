@@ -60,3 +60,47 @@ export const sideBarData = [
     date: "Mar 10, 2022",
   },
 ];
+
+export const asideCardsData = [
+  {
+    type: "TECHNOLOGY",
+    title: "  Schools, Parents Disagree over Bans on Student Mobile Phones",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/youssef-sarhan-tze1kKj7Lgg-unsplash-1-450x287.jpg",
+    author: "Shane Doe",
+    time: "6 Mins Read",
+  },
+  {
+    type: "GADGETS",
+    title: "  PC Game Deals: Stealth Classic to Grab, Fresh VR Bundle & More",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/pexels-sound-on-3761262-1-450x267.jpg",
+    author: "Shane Doe",
+    time: "6 Mins Read",
+  },
+  {
+    type: "TECHNOLOGY",
+    title: " Electric Car Owners to Pay Road Tax from 2025, Hunt Announces",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/Depositphotos_273724454_xl-2015-300x200.jpg",
+    author: "Shane Doe",
+    time: "6 Mins Read",
+  },
+  {
+    type: "PHONES",
+    title: "  Tackling Smartphone Addiction: Village Bans Mobiles for Minors",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/Depositphotos_378099058_xl-2015-1-450x270.jpg",
+    author: "Shane Doe",
+    time: "6 Mins Read",
+  },
+
+  {
+    type: "TECHNOLOGY",
+    title: " Epic Games Store Gives Away One of The Best VR Games",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/Depositphotos_286775054_xl-2015-1-450x196.jpg",
+    author: "Shane Doe",
+    time: "6 Mins Read",
+  },
+];
