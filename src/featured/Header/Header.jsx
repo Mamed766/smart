@@ -5,6 +5,7 @@ import { FaSearch, FaRegMoon } from "react-icons/fa";
 import { FaAngleDown } from "react-icons/fa6";
 import { featuresDropdownData } from "../../static/mockdb";
 import Dropdown from "../../molekuls/Dropdown";
+import NavList from "../../molekuls/NavList";
 
 const Header = () => {
   return (
@@ -19,45 +20,7 @@ const Header = () => {
               alt=""
             />
             <div>
-              <ul className="flex items-center gap-3">
-                <li className="cursor-pointer relative">
-                  <p className="text-[15px] font-bold hover-underline">Home</p>
-                </li>
-                <li className="flex items-center gap-1 cursor-pointer relative  p-2 group">
-                  <FaAngleDown className="text-[10px]" />
-                  <ul className="flex items-center gap-3">
-                    <li className="flex items-center gap-1 cursor-pointer relative p-2 group">
-                      <p className="text-[15px] font-bold hover-underline--feature">
-                        Features
-                      </p>
-                      <FaAngleDown className="text-[10px]" />
-                      <Dropdown />
-                    </li>
-                  </ul>
-                </li>
-                <li className="flex items-center gap-1 cursor-pointer relative">
-                  <p className="text-[15px] font-bold hover-underline">
-                    Technology
-                  </p>
-                  <FaAngleDown className="text-[10px]" />
-                </li>
-                <li className="cursor-pointer relative">
-                  <p className="text-[15px] font-bold hover-underline">
-                    Gadgets
-                  </p>
-                </li>
-                <li className="flex items-center gap-1 cursor-pointer relative">
-                  <p className="text-[15px] font-bold hover-underline">
-                    Phones
-                  </p>
-                  <FaAngleDown className="text-[10px]" />
-                </li>
-                <li className="cursor-pointer relative">
-                  <p className="text-[15px] font-bold hover-underline">
-                    Buy Theme
-                  </p>
-                </li>
-              </ul>
+              <NavList />
             </div>
           </div>
 
@@ -65,8 +28,8 @@ const Header = () => {
             <button className="bg-[#3C3FDE] py-2 px-3 text-white rounded-lg text-[12px] hover:bg-black duration-300">
               SUBSCRIBE
             </button>
-            <FaRegMoon className="cursor-pointer" />
-            <FaSearch className="cursor-pointer" />
+            <FaRegMoon className="cursor-pointer hover:text-blue-600 duration-300" />
+            <FaSearch className="cursor-pointer hover:text-blue-600 duration-300" />
           </div>
         </nav>
       </div>

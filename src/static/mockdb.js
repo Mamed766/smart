@@ -37,3 +37,26 @@ export const featuresDropdownData = [
     date: "Nov 22, 2022",
   },
 ];
+
+export const sideBarData = [
+  {
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/thisisengineering-raeng-a7A9O5htrKs-unsplash-450x300.jpg",
+    title: " Game Development This Week: Save On Essential Tools and More",
+    date: "Nov 19, 2022",
+  },
+  {
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/Depositphotos_242235046_xl-2015-1-1024x582.jpg",
+    title:
+      "Is the Hyperloop Doomed? What Elon Musk’s Latest Setback Really Means",
+    date: "Mar 10, 2022",
+  },
+  {
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/remy_loz-3vVzdb8KKIw-unsplash-1024x683.jpg",
+    title:
+      "The Best Early Black Friday Deals on Gaming Laptops and Accessories",
+    date: "Mar 10, 2022",
+  },
+];
