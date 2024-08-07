@@ -1,0 +1,74 @@
+.hover-underline::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #3c3fde;
+  position: absolute;
+  bottom: -32px;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.hover-underline:hover::after {
+  opacity: 1;
+}
+
+.hover-underline--feature::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #3c3fde;
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.hover-underline--feature:hover::after {
+  opacity: 1;
+}
+
+.menu-image {
+  width: 200px;
+  height: auto;
+}
+
+.menu-item {
+  white-space: normal;
+  line-height: 1.5;
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1432px) {
+  .custom-width {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .custom-width {
+    width: 700px;
+  }
+}
+
+@media (min-width: 1432px) {
+  .custom-width {
+    width: 1300px;
+  }
+}
