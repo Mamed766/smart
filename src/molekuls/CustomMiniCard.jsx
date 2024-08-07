@@ -16,7 +16,7 @@ const CustomMiniCard = ({
 }) => {
   return (
     <div
-      className={`h-[${cardHeight}rem] w-[${cardWidth}rem]  overflow-hidden mt-5`}
+      className={`h-[${cardHeight}rem] w-[${cardWidth}rem] overflow-hidden mt-5`}
     >
       <div className="relative">
         <img
@@ -38,8 +38,8 @@ const CustomMiniCard = ({
         </button>
       </div>
 
-      <div className="flex flex-col border shadow-lg rounded p-3">
-        <h2 className="font-bold">{title}</h2>
+      <div className="flex flex-col border shadow-lg rounded  p-3">
+        <h2 className="font-bold ">{title}</h2>
 
         <p className="flex items-center gap-1 mt-2 text-[10px]">
           <span>{author}</span>

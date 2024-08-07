@@ -9,8 +9,8 @@ const Cards = () => {
   return (
     <>
       <div className="container__default mt-5">
-        <div className="flex gap-10">
-          <div className="w-[60%]">
+        <div className="flex aside__container  gap-10">
+          <div className="w-[60%] cards__container ">
             <CustomCard
               type={"GADGETS"}
               descUp={"Save $25 on Philips Wired Headphone For A"}
@@ -56,7 +56,7 @@ const Cards = () => {
               />
             </div>
           </div>
-          <div className="flex ml-5 flex-col">
+          <div className="aside__section flex ml-5 flex-col">
             <div>
               <h2 className="border-b-[1px] w-[20rem] border-gray-300 font-bold">
                 People's Favorite

@@ -9,12 +9,12 @@ const AsideCards = () => {
         asideCardsData.map((data, index) => (
           <div
             key={index}
-            className="my-3 border-b-[1px] border-gray-300  pb-2"
+            className="my-3 border-b-[1px]   border-gray-300  pb-2"
           >
             <h3 className="text-[#3C3FDE] font-bold">{data.type}</h3>
-            <div className="flex gap-2">
+            <div className="flex items-center justify-between  gap-2">
               <div>
-                <p className="w-[200px] font-bold hover:text-[#3C3FDE] duration-300 cursor-pointer">
+                <p className="w-[200px] full  font-bold hover:text-[#3C3FDE] duration-300 cursor-pointer">
                   {data.title}
                 </p>
               </div>
