@@ -3,7 +3,7 @@ import { MdLocalPostOffice } from "react-icons/md";
 
 const HeroLetter = () => {
   return (
-    <div className="border-[10px] mt-[5rem] relative rounded-lg border-[#F7F7F7] p-3">
+    <div className="border-[10px] mt-[5rem] relative rounded-lg bg-white border-[#F7F7F7] p-3">
       <div className="flex flex-col justify-center items-center h-[25rem] ">
         <div className="absolute top-[-50px] border-[5px] border-white bg-[#3C3FDE] p-5 text-[50px] rounded-full text-white">
           <MdLocalPostOffice />
