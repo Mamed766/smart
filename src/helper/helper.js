@@ -6,6 +6,8 @@ const getTypeBgColor = (type) => {
       return "bg-[#3C3FDE]";
     case "GAMING":
       return "bg-red-500";
+    case "PHONES":
+      return "bg-[#39B2B2]";
     default:
       return "bg-gray-500";
   }

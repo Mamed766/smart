@@ -16,6 +16,7 @@ const Layout = ({ children }) => {
         toggleMobileSidebar={toggleSidebar}
       />
       <Header isSidebarOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
+      <div>{children}</div>
     </div>
   );
 };

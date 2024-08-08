@@ -104,3 +104,44 @@ export const asideCardsData = [
     time: "6 Mins Read",
   },
 ];
+
+export const editorCardsData = [
+  {
+    id: "1",
+    type: "GADGETS",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/akhil-yerabati-Q2uV5TkjNz8-unsplash-450x255.jpg",
+    title: "Study:Earbuds Use, Youngsters at High of Hearing Loss",
+    author: "Shone Doe",
+    time: "Mar 15,2020",
+  },
+  {
+    id: "2",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/greg-rakozy-oMpAz-DN-9I-unsplash-450x300.jpg",
+    type: "TECHNOLOGY",
+    title:
+      "Telescope is Revealing the Galaxies of the Universe Like Never Before",
+    author: "Shone Doe",
+    time: "Mar 15,2020",
+  },
+  {
+    id: "3",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/Depositphotos_429887216_XL-1-450x289.jpg",
+    type: "PHONES",
+    title: "CarPlay Concept Shows Off a Modular UI Inspired by Next-Gen Design",
+    author: "Shone Doe",
+    time: "Mar 15,2020",
+  },
+  {
+    id: "4",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/sunrise-king-NK-cB-l1cv0-unsplash-1-450x271.jpg",
+    type: "TECHNOLOGY",
+    title:
+      "Latest Windows 11 Preview Build Finally Lets You Search for Copied Text",
+    author: "Shone Doe",
+    time: "Mar 15,2020",
+  },
+];
