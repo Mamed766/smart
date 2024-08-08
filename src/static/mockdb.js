@@ -105,43 +105,49 @@ export const asideCardsData = [
   },
 ];
 
-export const editorCardsData = [
+export const videosData = [
   {
-    id: "1",
-    type: "GADGETS",
+    title: "Photography: Save $800 on a Fujifilm Camera Before Black Friday",
     image:
-      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/akhil-yerabati-Q2uV5TkjNz8-unsplash-450x255.jpg",
-    title: "Study:Earbuds Use, Youngsters at High of Hearing Loss",
-    author: "Shone Doe",
-    time: "Mar 15,2020",
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/pexels-leon-3636001-2-300x200.jpg",
   },
   {
-    id: "2",
-    image:
-      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/greg-rakozy-oMpAz-DN-9I-unsplash-450x300.jpg",
-    type: "TECHNOLOGY",
     title:
-      "Telescope is Revealing the Galaxies of the Universe Like Never Before",
-    author: "Shone Doe",
-    time: "Mar 15,2020",
+      "Wireless Earbuds May Help Amplify Sound for People with Hearing Loss",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/jerin-john-Smbz6GQt_CI-unsplash-2-300x176.jpg",
   },
   {
-    id: "3",
+    title: "Google Play Store Will Ask You to Update Apps if they Crash",
     image:
-      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/Depositphotos_429887216_XL-1-450x289.jpg",
-    type: "PHONES",
-    title: "CarPlay Concept Shows Off a Modular UI Inspired by Next-Gen Design",
-    author: "Shone Doe",
-    time: "Mar 15,2020",
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/freestocks-hRVrvH9-dG0-unsplash-1-300x200.jpg",
   },
   {
-    id: "4",
+    title: "Does The Budget-Friendly PICO 4 VR Headset Live Up To The Hype?",
     image:
-      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/sunrise-king-NK-cB-l1cv0-unsplash-1-450x271.jpg",
-    type: "TECHNOLOGY",
-    title:
-      "Latest Windows 11 Preview Build Finally Lets You Search for Copied Text",
-    author: "Shone Doe",
-    time: "Mar 15,2020",
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/light-fun-technology-neon-woman-enjoy-headset-happy-virtual-vr_t20_zWNmJX-1-300x201.jpg",
+  },
+];
+
+export const videosCardsData = [
+  {
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/billy-freeman-yk-jzxSIk90-unsplash-450x253.jpg",
+    title: "Leaf Headphones: Here are Some of The Best Devices",
+  },
+  {
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/nasa-Zzc0vZE2JZI-unsplash-450x350.jpg",
+    title: "A Piece of The Wrecked 1986 Challenger Space",
+  },
+  {
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/Depositphotos_314150492_xl-2015-1-768x361.jpg",
+    title: "Security Cameras Make Us Feel Safe, but Are They",
+  },
+  {
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/pragyan-goswami-GziKHv-3lVc-unsplash-450x315.jpg",
+    title: "This Bedside Table Lamp Will Light Up Your World ",
   },
 ];

@@ -10,14 +10,23 @@ const CustomCard = ({
   date,
   image,
   cardWidth,
+  children,
 }) => {
   return (
-    <div className={`relative overflow-hidden rounded-lg  w-[${cardWidth}%] `}>
+    <div
+      className="relative overflow-hidden group rounded-lg"
+      style={{ width: `${cardWidth}%` }}
+    >
       <img
-        className=" w-[100%] h-[27rem]  custom__card--img  "
+        className=" w-[100%] h-[27rem]  group-hover:scale-110 custom__card--img "
         src={image}
         alt=""
       />
+
+      <div className="absolute inset-0  text-white cursor-pointer  flex justify-center items-center text-[5rem]">
+        {" "}
+        {children}
+      </div>
 
       <div className="absolute bottom-0  p-3 flex flex-col gap-2 text-white">
         <button

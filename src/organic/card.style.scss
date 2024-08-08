@@ -17,3 +17,16 @@
     width: 100% !important;
   }
 }
+
+@media (max-width: 1260px) {
+  .video__cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .trending__videos {
+    flex-direction: column;
+  }
+  .trending__videos--img {
+    width: 100% !important;
+  }
+}
