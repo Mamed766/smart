@@ -15,7 +15,7 @@ const Hero = () => {
           <HeroHead />
           <div className="w-full max-w-full  ">
             <NewThings title={"Phones&Tech"} />
-            <div className="flex gap-[5rem] mt-5 hero__aside  items-center flex-wrap ">
+            <div className="flex gap-[10.5rem] mt-5 hero__aside   items-center flex-wrap ">
               <CustomCard
                 type={"PHONES"}
                 descUp={"Google Says Surveillance Vendor "}
