@@ -3,6 +3,9 @@
 }
 
 @media (max-width: 968px) {
+  .marginMb {
+    margin-top: 0 !important;
+  }
   .aside__container {
     flex-wrap: wrap !important;
   }

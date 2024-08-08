@@ -8,7 +8,7 @@ import Sponsored from "../molekuls/Sponsored";
 const Cards = () => {
   return (
     <>
-      <div className="container__default mt-5">
+      <div className="container__default marginMb md:mt-[10rem]">
         <div className="flex justify-between aside__container  gap-10">
           <div className="w-[70%] cards__container  header__cards ">
             <CustomCard

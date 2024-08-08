@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./header.scss";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { FaSearch, FaRegMoon } from "react-icons/fa";
@@ -8,18 +8,46 @@ import Cards from "../../organic/Cards";
 import SideBarMobile from "../Sidebar/SideBarMobile";
 
 const Header = ({ isSidebarOpen, toggleSidebar }) => {
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  const controlNavbar = () => {
+    if (typeof window !== "undefined") {
+      if (window.scrollY > lastScrollY) {
+        setIsVisible(false);
+      } else {
+        setIsVisible(true);
+      }
+      setLastScrollY(window.scrollY);
+    }
+  };
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      window.addEventListener("scroll", controlNavbar);
+
+      return () => {
+        window.removeEventListener("scroll", controlNavbar);
+      };
+    }
+  }, [lastScrollY]);
+
   return (
     <>
-      <div className={`w-full header__nav border pb-4 `}>
-        <div className="container__default mt-5 ">
-          <nav className={`flex justify-between  `}>
+      <div
+        className={`w-full header__nav border pb-4 z-50 bg-white top-0 ${
+          isVisible ? "fixed" : "hidden"
+        } transition-all duration-300`}
+      >
+        <div className="container__default mt-5">
+          <nav className="flex justify-between">
             <div className="flex items-center gap-3">
               <RxHamburgerMenu
                 onClick={() => toggleSidebar()}
                 className="cursor-pointer font-bold text-[23px]"
               />
               <img
-                className="object-cover cursor-pointer "
+                className="object-cover cursor-pointer"
                 src="https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/1techblog-logo.png"
                 alt=""
               />
@@ -45,7 +73,7 @@ const Header = ({ isSidebarOpen, toggleSidebar }) => {
             <li className="border-b-[1px] border-gray-700 pb-3">Home</li>
             <li className="border-b-[1px] border-gray-700 pb-3">Features</li>
             <li className="border-b-[1px] border-gray-700 pb-3">Technology</li>
-            <li className="border-b-[1px] border-gray-700 pb-3">Gadgetts</li>
+            <li className="border-b-[1px] border-gray-700 pb-3">Gadgets</li>
             <li className="border-b-[1px] border-gray-700 pb-3">Phones</li>
             <li className="border-b-[1px] border-gray-700 pb-3">Buy Theme</li>
           </ul>
