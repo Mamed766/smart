@@ -1,6 +1,7 @@
 import React from "react";
 import { TbSquareRotatedFilled } from "react-icons/tb";
 import getTypeBgColor from "../helper/helper";
+import Shane from "./Shane";
 
 const CustomCard = ({
   type,
@@ -48,24 +49,7 @@ const CustomCard = ({
         >
           {descDown}
         </div>
-        <div className="flex justify-start gap-2 items-center">
-          <div>
-            <img
-              className="w-5 rounded-full"
-              src="https://cheerup.theme-sphere.com/wp-content/uploads/2016/05/bella-doe.jpg"
-              alt=""
-            />
-          </div>
-          <div className="text-[10px]">
-            <h3>{author}</h3>
-          </div>
-          <div className="text-[5px]">
-            <TbSquareRotatedFilled />
-          </div>
-          <div className="text-[10px]">
-            <h3>{date}</h3>
-          </div>
-        </div>
+        <Shane Author={"Shane Doe"} date={"Jan 14,2021"} />
       </div>
     </div>
   );

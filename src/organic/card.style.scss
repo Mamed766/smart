@@ -31,6 +31,21 @@
   .hero__aside--justify {
     align-items: center;
   }
+
+  .review__main--card {
+    flex-direction: column !important;
+  }
+  // .review__main--image {
+  //   height: 20rem !important;
+  // }
+}
+
+@media (max-width: 722px) {
+  .review__cards {
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
 }
 
 @media (min-width: 968px) and (max-width: 1243px) {
