@@ -12,6 +12,7 @@ const CustomCard = ({
   cardWidth,
   cardHeight,
   children,
+  textsize,
 }) => {
   return (
     <div
@@ -37,10 +38,14 @@ const CustomCard = ({
         >
           {type}
         </button>
-        <div className="bg-black text-[14px]  sm:text-[22px] font-bold h-[50px] p-2 flex items-center">
+        <div
+          className={`bg-black text-[14px]  sm:text-[${textsize}] font-bold h-[50px] p-2 flex items-center`}
+        >
           <h2>{descUp}</h2>
         </div>
-        <div className="bg-black  text-[14px]  sm:text-[22px] font-bold h-[50px] p-2 flex  items-center">
+        <div
+          className={`bg-black text-[14px]  sm:text-[${textsize}] font-bold h-[50px] p-2 flex items-center`}
+        >
           {descDown}
         </div>
         <div className="flex justify-start gap-2 items-center">

@@ -8,8 +8,8 @@ const Cards = () => {
   return (
     <>
       <div className="container__default mt-5">
-        <div className="flex aside__container  gap-10">
-          <div className="w-[60%] cards__container ">
+        <div className="flex justify-between aside__container  gap-10">
+          <div className="w-[70%] cards__container  header__cards ">
             <CustomCard
               type={"GADGETS"}
               descUp={"Save $25 on Philips Wired Headphone For A"}
@@ -19,6 +19,7 @@ const Cards = () => {
               image={
                 "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/Depositphotos_29247013_xl-2015-2-1024x683.jpg"
               }
+              textsize={"22px"}
               cardWidth={100}
             />
 
@@ -55,9 +56,9 @@ const Cards = () => {
               />
             </div>
           </div>
-          <div className="aside__section flex ml-5 flex-col">
+          <div className="aside__section flex ml-5 flex-col w-full max-w-[100%] md:max-w-[80%] lg:max-w-[60%]">
             <div>
-              <h2 className="border-b-[1px] w-[20rem] border-gray-300 font-bold">
+              <h2 className="border-b-[1px] w-full border-gray-300 font-bold">
                 People's Favorite
               </h2>
               <div className="flex flex-col">

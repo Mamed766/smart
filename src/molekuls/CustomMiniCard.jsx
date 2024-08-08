@@ -16,7 +16,7 @@ const CustomMiniCard = ({
 }) => {
   return (
     <div
-      className="overflow-hidden mt-5"
+      className="overflow-hidden mt-5 "
       style={{ height: `${cardHeight}rem`, width: `${cardWidth}rem` }}
     >
       <div className="relative">

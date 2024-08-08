@@ -18,6 +18,12 @@
   }
 }
 
+@media (min-width: 968px) and (max-width: 1243px) {
+  .header__cards {
+    width: 60% !important;
+  }
+}
+
 @media (max-width: 1260px) {
   .video__cards {
     flex-wrap: wrap;

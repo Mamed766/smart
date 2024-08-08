@@ -24,6 +24,7 @@ const Videos = () => {
                 author={"Shane Doe"}
                 date={"Sep 20,2020"}
                 type={"GADGETS"}
+                textsize={"22px"}
               >
                 <RiPlayCircleLine />
               </CustomCard>
