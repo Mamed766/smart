@@ -151,3 +151,93 @@ export const videosCardsData = [
     title: "This Bedside Table Lamp Will Light Up Your World ",
   },
 ];
+
+export const articles = [
+  {
+    title: "Braun Series 7 Electric Shaver Review: Quality at a Good Price",
+    author: "Shane Doe",
+    date: "Jan 13, 2021",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/Depositphotos_422797426_xl-2015-1-450x299.jpg",
+  },
+  {
+    title: "Google Pixel 7, iPhone 14 Compared: Check Out 5 Major Differences",
+    author: "Shane Doe",
+    date: "Jan 13, 2021",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/Depositphotos_443469058_xl-2015-1-450x305.jpg",
+  },
+  {
+    title: "Why Apple Should Skip The MacBook Pro Launch",
+    author: "Shane Doe",
+    date: "Jan 12, 2021",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/laurens-derks-h0tMHMyfr9A-unsplash-450x298.jpg",
+  },
+  {
+    title: "Apollo G2J Showcases Electric Sports Car",
+    author: "Shane Doe",
+    date: "Jan 12, 2021",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/Depositphotos_430988634_xl-2015-4-450x313.jpg",
+  },
+  {
+    title: "The Famous Dyson Bladeless Fan is On Sale at Walmart",
+    author: "Shane Doe",
+    date: "Jan 12, 2021",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/youssef-sarhan-tze1kKj7Lgg-unsplash-1-450x287.jpg",
+  },
+  {
+    title: "Best Luxury Hotels In Bogotá 2022",
+    author: "Shane Doe",
+    date: "Jan 12, 2021",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/light-fun-technology-neon-woman-enjoy-headset-happy-virtual-vr_t20_zWNmJX-1-300x201.jpg",
+  },
+];
+
+export const phoneArticles = [
+  {
+    title: "The Pros of Buying a Used/Refurbished iPhone 11",
+    author: "Shane Doe",
+    date: "Jan 13, 2021",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/omid-armin-fxJIHyWTRu4-unsplash-450x302.jpg",
+  },
+  {
+    title: "These OnePlus Phones Are Getting Stable Android 13 Update",
+    author: "Shane Doe",
+    date: "Jan 13, 2021",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/omid-armin-2ZgdviaHOkc-unsplash-2-267x300.jpg",
+  },
+  {
+    title: "Huawei Phones are Moving Forward Without Google Mobile Services",
+    author: "Shane Doe",
+    date: "Jan 12, 2021",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/omid-armin-mP4sfCCoTrI-unsplash-1-450x744.jpg",
+  },
+  {
+    title: "OnePlus Will Focus on a Premium Build Over Camera Performance",
+    author: "Shane Doe",
+    date: "Jan 12, 2021",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/vinit-vispute-enqYaZPSDjQ-unsplash-1024x683.jpg",
+  },
+  {
+    title: "The Best Wireless Earbuds for the Samsung Galaxy S22 in 2022",
+    author: "Shane Doe",
+    date: "Jan 12, 2021",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/ivan-shilov-D24B2DiV0sY-unsplash-300x200.jpg",
+  },
+  {
+    title: "Redmi Series Launched With 200MP Camera and a Fast Charging",
+    author: "Shane Doe",
+    date: "Jan 12, 2021",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/mark-chan-489jbTi51sg-unsplash-300x169.jpg",
+  },
+];

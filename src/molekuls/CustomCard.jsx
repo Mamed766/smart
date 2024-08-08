@@ -10,12 +10,13 @@ const CustomCard = ({
   date,
   image,
   cardWidth,
+  cardHeight,
   children,
 }) => {
   return (
     <div
       className="relative overflow-hidden group rounded-lg"
-      style={{ width: `${cardWidth}%` }}
+      style={{ width: `${cardWidth}%`, height: `${cardHeight}rem` }}
     >
       <img
         className=" w-[100%] h-[27rem]  group-hover:scale-110 custom__card--img "
@@ -36,10 +37,10 @@ const CustomCard = ({
         >
           {type}
         </button>
-        <div className="bg-black text-[15px]  sm:text-[22px] font-bold h-[50px] p-2 flex items-center">
+        <div className="bg-black text-[14px]  sm:text-[22px] font-bold h-[50px] p-2 flex items-center">
           <h2>{descUp}</h2>
         </div>
-        <div className="bg-black  text-[15px]  sm:text-[22px] font-bold h-[50px] p-2 flex  items-center">
+        <div className="bg-black  text-[14px]  sm:text-[22px] font-bold h-[50px] p-2 flex  items-center">
           {descDown}
         </div>
         <div className="flex justify-start gap-2 items-center">
