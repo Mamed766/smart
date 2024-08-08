@@ -16,7 +16,7 @@ const CustomCard = ({
 }) => {
   return (
     <div
-      className="relative overflow-hidden group rounded-lg"
+      className="relative overflow-hidden group rounded-lg hero__aside--width"
       style={{ width: `${cardWidth}%`, height: `${cardHeight}rem` }}
     >
       <img

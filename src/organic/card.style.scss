@@ -16,6 +16,18 @@
   .full {
     width: 100% !important;
   }
+
+  .hero__aside {
+    flex-direction: column;
+  }
+
+  .hero__aside--width {
+    width: 100% !important;
+  }
+
+  .hero__aside--justify {
+    align-items: center;
+  }
 }
 
 @media (min-width: 968px) and (max-width: 1243px) {

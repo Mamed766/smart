@@ -196,7 +196,6 @@ export const articles = [
       "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/light-fun-technology-neon-woman-enjoy-headset-happy-virtual-vr_t20_zWNmJX-1-300x201.jpg",
   },
 ];
-
 export const phoneArticles = [
   {
     title: "The Pros of Buying a Used/Refurbished iPhone 11",
@@ -239,5 +238,39 @@ export const phoneArticles = [
     date: "Jan 12, 2021",
     image:
       "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/mark-chan-489jbTi51sg-unsplash-300x169.jpg",
+  },
+];
+
+export const heroAsideList = [
+  {
+    title: "Popular New Xbox Game Pass Game Being Review Bombed With “0s”",
+    author: "Shane Doe",
+    date: "Jan 14, 2021",
+    views: "7,792",
+  },
+  {
+    title: "Samsung is Developing Bright MicroLED on Displays for AR Headsets",
+    author: "Shane Doe",
+    date: "Jan 14, 2021",
+    views: "6,914",
+  },
+  {
+    title: "Warner Bros. Games Announces Mortal Kombat: Onslaught",
+    author: "Shane Doe",
+    date: "Jan 14, 2021",
+    views: "4,418",
+  },
+  {
+    title: "Super League Gaming now Publisher of Roblox Anime Battlegrounds",
+    author: "Shane Doe",
+    date: "Jan 14, 2021",
+    views: "1,103",
+  },
+  {
+    title:
+      "Hologate Announces New Plans for First Large Format World VR Arcade",
+    author: "Shane Doe",
+    date: "Jan 14, 2021",
+    views: "798",
   },
 ];
