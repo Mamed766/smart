@@ -14,8 +14,8 @@ const MainLatest = () => {
         <NewThings title={"Latest Articles"} button={false} />
         <div>
           <div className=" ">
-            <div className="flex  justify-between ">
-              <div className="w-[60rem]  flex flex-col lg:w-[67%]">
+            <div className="flex main__latest gap-2  justify-between ">
+              <div className="  flex flex-col lg:w-[67%]">
                 <MainLatestTop />
                 <div className="mt-5">
                   <CustomCard
