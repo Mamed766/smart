@@ -1,3 +1,12 @@
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaPinterest,
+  FaTelegram,
+  FaWhatsapp,
+} from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+
 export const featuresDropdownData = [
   {
     title:
@@ -344,5 +353,69 @@ export const mainLatestArticlesDataBottom = [
     author: "Shane Doe",
     date: "Jan 16,2020",
     desc: "To understand the new smart watched and other pro devices of recent focus, we should look to Silicon Valley and the quantified…",
+  },
+];
+
+export const socialData = [
+  {
+    icon: <FaFacebookF />,
+    follower: "1.1K",
+    platform: "Facebook",
+  },
+  {
+    icon: <FaXTwitter />,
+    follower: "68.9K",
+    platform: "Twitter",
+  },
+  {
+    icon: <FaPinterest />,
+    follower: "10.7K",
+    platform: "Pinterest",
+  },
+  {
+    icon: <FaInstagram />,
+    follower: "46.4K",
+    platform: "Instagram",
+  },
+  {
+    icon: <FaTelegram />,
+    follower: "",
+    platform: "Telegram",
+  },
+  {
+    icon: <FaWhatsapp />,
+    follower: "",
+    platform: "Whatsapp",
+  },
+];
+
+export const GamingNews = [
+  {
+    title: "New Oculus VR Kills IRL If Your Game Character Dies",
+    author: "Shane Doe",
+    date: "Apr 18,2020",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/man-with-glasses-of-virtual-reality-nominated_t20_ZYvEBR-300x210.jpg",
+  },
+  {
+    title: "Hologate VR Serves Its Five Millionth Customer",
+    author: "Shane Doe",
+    date: "Mar 16,2020",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/pexels-bruno-bueno-3854821-300x200.jpg",
+  },
+  {
+    title: "The Nintendo Switch Can’t Seem To Handle Pokémon",
+    author: "Shane Doe",
+    date: "Apr 18,2020",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/yasin-hasan-PU1uYnZrAL0-unsplash-300x200.jpg",
+  },
+  {
+    title: "The Fujifilm X-T30 is The Perfect Camera for Gaming",
+    author: "Shane Doe",
+    date: "Apr 18,2020",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/puria-berenji-tUnzh_uINw0-unsplash-450x600.jpg",
   },
 ];

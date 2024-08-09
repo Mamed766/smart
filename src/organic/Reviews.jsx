@@ -22,7 +22,7 @@ const Reviews = () => {
               <h2 className="md:w-[500px]  text-[30px] font-bold">
                 Pico 4 Review: Should You Actually Buy One Instead Of Quest 2?
               </h2>
-              <Shane Author={"Shane Doe"} date={"Jan 15,2021"} />
+              <Shane image={true} Author={"Shane Doe"} date={"Jan 15,2021"} />
               <p className="text-gray-400 md:w-[600px]">
                 To understand the new smart watched and other pro devices of
                 recent focus, we should look to…

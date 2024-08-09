@@ -29,7 +29,7 @@ const MainLatestTop = () => {
                 <h2 className="text-[16px] md:text-[20px] cursor-pointer hover:text-blue-700 duration-300 font-bold md:w-full lg:w-[400px]">
                   {data.title}
                 </h2>
-                <Shane Author={data.author} date={data.date} />
+                <Shane image={true} Author={data.author} date={data.date} />
                 <p className="text-gray-500 text-[12px] md:text-[13px] w-full md:w-[80%] lg:w-[500px]">
                   {data.date}
                 </p>

@@ -50,7 +50,7 @@ const CustomCard = ({
         >
           {descDown}
         </div>
-        <Shane Author={"Shane Doe"} date={"Jan 14,2021"} />
+        <Shane image={true} Author={"Shane Doe"} date={"Jan 14,2021"} />
       </div>
     </div>
   );

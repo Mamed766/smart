@@ -19,7 +19,7 @@ const HeroHead = () => {
           </button>
         </div>
         <div className="flex justify-center w-full max-w-[300px] flex-col gap-2">
-          <h2 className="font-bold text-[18px]">
+          <h2 className="font-bold text-[18px] cursor-pointer hover:text-blue-700 duration-300">
             Oculus Founder Makes a VR Headset That Can Literally Kill You
           </h2>
           <Author
