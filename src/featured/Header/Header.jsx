@@ -12,7 +12,7 @@ const Header = ({ isSidebarOpen, toggleSidebar }) => {
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
 
-  const { isDarkMode, toggleDarkMode } = useTheme(); // Use the context
+  const { isDarkMode, toggleDarkMode } = useTheme();
 
   const controlNavbar = () => {
     if (typeof window !== "undefined") {
