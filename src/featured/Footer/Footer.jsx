@@ -112,13 +112,13 @@ const Footer = () => {
                   business.
                 </p>
                 <input
-                  className="bg-[#0F0F11] p-2 w-[300px]"
+                  className="bg-[#0F0F11] p-2 w-[300px] outline-none text-white"
                   placeholder="Your email address"
                   type="text"
                 />
 
                 <div className="flex relative justify-center  items-center  gap-2">
-                  <input type="checkbox" className="mb-5 ml-5 w-[10px]" />
+                  <input type="checkbox" className="mb-5 ml-5 w-[10px] " />
                   <label className=" w-[300px] text-gray-400  text-[12px] text-center">
                     By signing up, you agree to the our terms and our Privacy
                     Policy agreement.
