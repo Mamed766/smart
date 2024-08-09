@@ -7,6 +7,7 @@ import Sidebar from "../Sidebar/Sidebar";
 import Cards from "../../organic/Cards";
 import SideBarMobile from "../Sidebar/SideBarMobile";
 import { useTheme } from "../../context/DarkModeContext";
+import { CiSun } from "react-icons/ci";
 
 const Header = ({ isSidebarOpen, toggleSidebar }) => {
   const [isVisible, setIsVisible] = useState(true);
@@ -49,11 +50,19 @@ const Header = ({ isSidebarOpen, toggleSidebar }) => {
                 onClick={() => toggleSidebar()}
                 className="cursor-pointer font-bold text-[23px]"
               />
-              <img
-                className="object-cover cursor-pointer"
-                src="https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/1techblog-logo.png"
-                alt=""
-              />
+              {!isDarkMode ? (
+                <img
+                  className="object-cover cursor-pointer"
+                  src="https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/1techblog-logo.png"
+                  alt=""
+                />
+              ) : (
+                <img
+                  className="object-cover cursor-pointer w-[11rem]"
+                  src="https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/techblog-logo-dark@2x.png"
+                  alt=""
+                />
+              )}
               <div>
                 <NavList />
               </div>
@@ -63,10 +72,18 @@ const Header = ({ isSidebarOpen, toggleSidebar }) => {
               <button className="bg-[#3C3FDE] py-2 px-3 text-white rounded-lg text-[12px] hover:bg-black duration-300">
                 SUBSCRIBE
               </button>
-              <FaRegMoon
-                onClick={toggleDarkMode}
-                className="cursor-pointer hover:text-blue-600 duration-300"
-              />
+              {!isDarkMode ? (
+                <FaRegMoon
+                  onClick={toggleDarkMode}
+                  className="cursor-pointer hover:text-blue-600 duration-300"
+                />
+              ) : (
+                <CiSun
+                  className="text-[30px] cursor-pointer hover:text-yellow-400 duration-300"
+                  onClick={toggleDarkMode}
+                />
+              )}
+
               <FaSearch className="cursor-pointer hover:text-blue-600 duration-300" />
             </div>
           </nav>
