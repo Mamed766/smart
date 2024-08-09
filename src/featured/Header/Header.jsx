@@ -39,7 +39,7 @@ const Header = ({ isSidebarOpen, toggleSidebar }) => {
   return (
     <>
       <div
-        className={`w-full header__nav border pb-4 z-50 bg-white top-0 ${
+        className={`w-full header__nav border pb-4 z-30 bg-white top-0 ${
           isVisible ? "fixed" : "hidden"
         } transition-all duration-300`}
       >
