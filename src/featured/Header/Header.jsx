@@ -6,10 +6,13 @@ import NavList from "../../molekuls/NavList";
 import Sidebar from "../Sidebar/Sidebar";
 import Cards from "../../organic/Cards";
 import SideBarMobile from "../Sidebar/SideBarMobile";
+import { useTheme } from "../../context/DarkModeContext";
 
 const Header = ({ isSidebarOpen, toggleSidebar }) => {
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
+
+  const { isDarkMode, toggleDarkMode } = useTheme(); // Use the context
 
   const controlNavbar = () => {
     if (typeof window !== "undefined") {
@@ -60,7 +63,10 @@ const Header = ({ isSidebarOpen, toggleSidebar }) => {
               <button className="bg-[#3C3FDE] py-2 px-3 text-white rounded-lg text-[12px] hover:bg-black duration-300">
                 SUBSCRIBE
               </button>
-              <FaRegMoon className="cursor-pointer hover:text-blue-600 duration-300" />
+              <FaRegMoon
+                onClick={toggleDarkMode}
+                className="cursor-pointer hover:text-blue-600 duration-300"
+              />
               <FaSearch className="cursor-pointer hover:text-blue-600 duration-300" />
             </div>
           </nav>

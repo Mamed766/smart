@@ -9,7 +9,7 @@ const MainLatestTop = () => {
       {mainLatestArticlesDataTop &&
         mainLatestArticlesDataTop.map((data, index) => {
           return (
-            <div className="flex flex-wrap lg:flex-nowrap border shadow-lg rounded-lg gap-2 items-center">
+            <div className="flex flex-wrap lg:flex-nowrap border shadow-lg latest__top rounded-lg gap-2 items-center">
               <div className="relative w-full lg:w-auto">
                 <img
                   src={data.image}

@@ -22,7 +22,7 @@ const Editors = () => {
         <h2 className="text-[30px] font-bold">Editor's Picks</h2>
         <div className="border-t-2 h-2 border-b-2 w-[40%]"></div>
       </div>
-      <div className="container__default mt-5 flex flex-wrap justify-center gap-5">
+      <div className="container__default editor__picks mt-5 flex flex-wrap justify-center gap-5">
         {editorCardsData.length > 0 ? (
           editorCardsData.map((data, index) => (
             <div
@@ -32,7 +32,7 @@ const Editors = () => {
               <div className="relative">
                 <div className="">
                   <img
-                    src={urlFor(data.mainImage).url()} // URL builder'ı kullanarak tam URL oluşturuyoruz
+                    src={urlFor(data.mainImage).url()}
                     alt={data.title}
                     className="rounded-[0.8rem] object-cover w-[17rem] h-[12rem] hover:opacity-80 cursor-pointer duration-300"
                   />

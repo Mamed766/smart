@@ -3,7 +3,7 @@ import { articles } from "../static/mockdb";
 
 const GadgetArticle = () => {
   return (
-    <div className="grid w-full max-w-full grid-cols-1 sm:grid-cols-2 gap-4">
+    <div className="grid gadget__article w-full max-w-full grid-cols-1 sm:grid-cols-2 gap-4">
       {articles &&
         articles.map((article, index) => (
           <div key={index} className="flex items-center space-x-4">

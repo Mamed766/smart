@@ -40,7 +40,7 @@ const CustomMiniCard = ({
         </button>
       </div>
 
-      <div className="flex flex-col border shadow-lg rounded p-3">
+      <div className="flex flex-col border shadow-lg custom__mini--card__desc  rounded p-3">
         <h2 className="font-bold">{title}</h2>
 
         <p className="flex items-center gap-1 mt-2 text-[10px]">

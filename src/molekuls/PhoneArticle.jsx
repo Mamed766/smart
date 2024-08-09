@@ -3,7 +3,7 @@ import { phoneArticles } from "../static/mockdb";
 
 const PhoneArticle = () => {
   return (
-    <div className="grid mt-5 w-full max-w-full grid-cols-1 sm:grid-cols-2 gap-4">
+    <div className="grid mt-5 phone__article w-full max-w-full grid-cols-1 sm:grid-cols-2 gap-4">
       {phoneArticles &&
         phoneArticles.map((article, index) => (
           <div key={index} className="flex items-center space-x-4">

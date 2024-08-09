@@ -18,6 +18,48 @@
   }
 }
 
+body {
+  background-color: white;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: white !important;
+  border: none;
+}
+body.dark-mode .custom__mini--card__desc {
+  border: none !important;
+}
+body.dark-mode .latest__top {
+  border: none;
+}
+body.dark-mode .latest__bottom {
+  border: none;
+}
+
+body.dark-mode .dropdown {
+  background-color: #121212;
+  border: none;
+  color: white !important;
+}
+body.dark-mode .editor__picks {
+  color: black !important;
+}
+
+body.dark-mode .gadget__article h2,
+.gadget__article p {
+  color: white !important;
+}
+body.dark-mode .phone__article h2,
+.phone__article p {
+  color: white !important;
+}
+
+body.dark-mode .header__nav {
+  background-color: #1f1f1f;
+  border: none;
+}
+
 .card-gradient {
   background: linear-gradient(to top, #000000, rgba(0, 0, 0, 0.7));
 }
