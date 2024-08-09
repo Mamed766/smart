@@ -419,3 +419,51 @@ export const GamingNews = [
       "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/puria-berenji-tUnzh_uINw0-unsplash-450x600.jpg",
   },
 ];
+
+export const footerPopularCardsData = [
+  {
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2021/01/kamil-s-SuPAbuuK7f4-unsplash-450x300.jpg",
+    title: " Popular New Xbox Game Pass Game Being Review Bombed With “0s”",
+    date: "Jan14,2021",
+    views: "7,792 views",
+  },
+  {
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2021/01/jonathan-kemper-poSms2EzfNY-unsplash-150x100.jpg",
+    title: " Popular New Xbox Game Pass Game Being Review Bombed With “0s”",
+    date: "Jan14,2021",
+    views: "7,792 views",
+  },
+  {
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2021/01/0247d91565b69ed9ddba4ec59ac97963-1-150x86.jpg",
+    title: " Popular New Xbox Game Pass Game Being Review Bombed With “0s”",
+    date: "Jan14,2021",
+    views: "7,792 views",
+  },
+];
+
+export const footerPicksCardsData = [
+  {
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/thisisengineering-raeng-a7A9O5htrKs-unsplash-450x300.jpg",
+    title: " Popular New Xbox Game Pass Game Being Review Bombed With “0s”",
+    date: "Jan14,2021",
+    views: "",
+  },
+  {
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/Depositphotos_242235046_xl-2015-1-450x256.jpg",
+    title: " Popular New Xbox Game Pass Game Being Review Bombed With “0s”",
+    date: "Jan14,2021",
+    views: "",
+  },
+  {
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/remy_loz-3vVzdb8KKIw-unsplash-450x300.jpg",
+    title: " Popular New Xbox Game Pass Game Being Review Bombed With “0s”",
+    date: "Jan14,2021",
+    views: "",
+  },
+];

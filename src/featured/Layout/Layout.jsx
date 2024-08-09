@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Header from "../Header/Header";
 import MobileNavbar from "../Header/MobileNavbar";
+import Footer from "../Footer/Footer";
 
 const Layout = ({ children }) => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
@@ -17,6 +18,7 @@ const Layout = ({ children }) => {
       />
       <Header isSidebarOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
       <div>{children}</div>
+      <Footer />
     </div>
   );
 };
