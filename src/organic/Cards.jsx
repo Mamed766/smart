@@ -10,7 +10,7 @@ const Cards = () => {
     <>
       <div className="container__default marginMb md:mt-[10rem]">
         <div className="flex justify-between aside__container  gap-10">
-          <div className="w-[70%] cards__container  header__cards ">
+          <div className="w-[70%] cards__container cards__container--margin header__cards ">
             <CustomCard
               type={"GADGETS"}
               descUp={"Save $25 on Philips Wired Headphone For A"}

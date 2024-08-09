@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Sidebar from "./Sidebar";
 
 const SideBarMobile = ({ isOpen, setIsOpen, children }) => {
   return (
     isOpen && (
-      <div className="sidebar__mobile">
+      <div className={`sidebar__mobile `}>
         <Sidebar isOpen={isOpen} setIsOpen={setIsOpen}>
           {children}
         </Sidebar>
