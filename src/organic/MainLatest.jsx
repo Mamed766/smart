@@ -7,6 +7,8 @@ import MainLatestBottom from "../molekuls/MainLatestBottom";
 import getTypeTextColor from "../helper/textColor";
 import SocialCard from "../molekuls/SocialCard";
 import Shane from "../molekuls/Shane";
+import { IoReload } from "react-icons/io5";
+
 const MainLatest = () => {
   return (
     <div className="container__default">
@@ -31,6 +33,17 @@ const MainLatest = () => {
                   />
                 </div>
                 <MainLatestBottom />
+                <div className="flex justify-center mt-5">
+                  <button
+                    className=" flex items-center justify-center gap-2 font-bold p-2
+                  hover:bg-black duration-300
+                  
+                  text-white  bg-[#3C3FDE] rounded-full w-[30%]"
+                  >
+                    Load More
+                    <IoReload />
+                  </button>
+                </div>
               </div>
               <div className="flex  flex-col">
                 <div className=" sticky top-10 flex flex-col">
