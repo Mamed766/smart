@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="w-full max-w-full">
           <HeroHead />
           <div className="w-full max-w-full  ">
-            <NewThings title={"Phones&Tech"} />
+            <NewThings title={"Phones&Tech"} button={true} />
             <div className="flex gap-[10.5rem] mt-5 hero__aside   items-center flex-wrap ">
               <CustomCard
                 type={"PHONES"}

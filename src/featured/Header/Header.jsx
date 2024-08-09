@@ -79,7 +79,6 @@ const Header = ({ isSidebarOpen, toggleSidebar }) => {
           </ul>
         </div>
       </SideBarMobile>
-      <Cards />
     </>
   );
 };

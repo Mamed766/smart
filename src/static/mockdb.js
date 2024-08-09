@@ -274,3 +274,75 @@ export const heroAsideList = [
     views: "798",
   },
 ];
+
+export const mainLatestArticlesDataTop = [
+  {
+    type: "GAMING",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/thisisengineering-raeng-a7A9O5htrKs-unsplash-450x300.jpg",
+    title: "Game Development This Week: Save On Essential Tools and More",
+    author: "Shane Doe",
+    date: "Nov 19,2022",
+    desc: "To understand the new smart watched and other pro devices of recent focus, we should look to Silicon Valley and the quantified…",
+  },
+  {
+    type: "TECHNOLOGY",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/Depositphotos_242235046_xl-2015-1-450x256.jpg",
+    title:
+      "Is the Hyperloop Doomed? What Elon Musk’s Latest Setback Really Means",
+    author: "Shane Doe",
+    date: "Feb 12,2023",
+    desc: "To understand the new smart watched and other pro devices of recent focus, we should look to Silicon Valley and the quantified…",
+  },
+  {
+    type: "TECHNOLOGY",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/remy_loz-3vVzdb8KKIw-unsplash-450x300.jpg",
+    title:
+      "The Best Early Black Friday Deals on Gaming Laptops and Accessories",
+    author: "Shane Doe",
+    date: "Sep 16,2021",
+    desc: "To understand the new smart watched and other pro devices of recent focus, we should look to Silicon Valley and the quantified…",
+  },
+];
+
+export const mainLatestArticlesDataBottom = [
+  {
+    type: "GAMING",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/remy-gieling-bA5ZJ9JVrb8-unsplash-1-450x286.jpg",
+    title: "Keep Talking and Nobody Explodes: A Boomer Gaming in VR",
+    author: "Shane Doe",
+    date: "Aug 18,2020",
+    desc: "To understand the new smart watched and other pro devices of recent focus, we should look to Silicon Valley and the quantified…",
+  },
+  {
+    type: "TECHNOLOGY",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/pexels-bogdan-glisik-1661469-1-450x390.jpg",
+    title: "Apple Watch’s ECG Can Help Diagnose Heart Problem: Research",
+    author: "Shane Doe",
+    date: "Dec 9,2024",
+    desc: "To understand the new smart watched and other pro devices of recent focus, we should look to Silicon Valley and the quantified…",
+  },
+  {
+    type: "TECHNOLOGY",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/pexels-luis-quintero-1787236-450x300.jpg",
+    title: "Simple Tips and Tricks to Take Care of Your Expensive DSLR Camera",
+    author: "Shane Doe",
+    date: "Apr 15,2021",
+    desc: "To understand the new smart watched and other pro devices of recent focus, we should look to Silicon Valley and the quantified…",
+  },
+  {
+    type: "GAMING",
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/pexels-bruno-bueno-3854821-450x300.jpg",
+    title:
+      "Hologate Announces New Plans for First Large Format World VR Arcade",
+    author: "Shane Doe",
+    date: "Jan 16,2020",
+    desc: "To understand the new smart watched and other pro devices of recent focus, we should look to Silicon Valley and the quantified…",
+  },
+];

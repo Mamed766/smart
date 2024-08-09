@@ -1,5 +1,4 @@
 import React from "react";
-import { TbSquareRotatedFilled } from "react-icons/tb";
 import getTypeBgColor from "../helper/helper";
 import Shane from "./Shane";
 
@@ -14,6 +13,7 @@ const CustomCard = ({
   cardHeight,
   children,
   textsize,
+  descDownWidth,
 }) => {
   return (
     <div
@@ -45,7 +45,8 @@ const CustomCard = ({
           <h2>{descUp}</h2>
         </div>
         <div
-          className={`bg-black text-[14px]  sm:text-[${textsize}] font-bold h-[50px] p-2 flex items-center`}
+          className={`bg-black text-[14px]  sm:text-[${textsize}] font-bold h-[50px]  p-2 flex items-center`}
+          style={{ width: `${descDownWidth}px` }}
         >
           {descDown}
         </div>

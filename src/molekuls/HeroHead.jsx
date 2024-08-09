@@ -6,7 +6,7 @@ import NewThings from "./NewThings";
 const HeroHead = () => {
   return (
     <div className="flex flex-col gap-4 w-full">
-      <NewThings title={"New Gadgets"} />
+      <NewThings title={"New Gadgets"} button={true} />
       <div className="flex gap-3 flex-wrap">
         <div className="relative">
           <img
