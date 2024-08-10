@@ -2,7 +2,7 @@ import client from "../sanityClient";
 
 const fetchPosts = async () => {
   try {
-    const query = '*[_type == "post"]';
+    const query = '*[_type == "post" && _id in path("drafts.**") == false]';
     const result = await client.fetch(query);
     return result;
   } catch (error) {

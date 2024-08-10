@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import Header from "../Header/Header";
 import MobileNavbar from "../Header/MobileNavbar";
 import Footer from "../Footer/Footer";
+import { Outlet } from "react-router";
 
-const Layout = ({ children }) => {
+const Layout = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
 
   const toggleSidebar = () => {
@@ -17,7 +18,9 @@ const Layout = ({ children }) => {
         toggleMobileSidebar={toggleSidebar}
       />
       <Header isSidebarOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
-      <div>{children}</div>
+      <div>
+        <Outlet />
+      </div>
       <Footer />
     </div>
   );
