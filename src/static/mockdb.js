@@ -3,7 +3,10 @@ import {
   FaInstagram,
   FaPinterest,
   FaTelegram,
+  FaTiktok,
+  FaTwitter,
   FaWhatsapp,
+  FaYoutube,
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -465,5 +468,91 @@ export const footerPicksCardsData = [
     title: " Popular New Xbox Game Pass Game Being Review Bombed With “0s”",
     date: "Jan14,2021",
     views: "",
+  },
+];
+
+export const asideGadgetData = [
+  {
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2021/01/kamil-s-SuPAbuuK7f4-unsplash-450x300.jpg",
+    title: "Popular New Xbox Game Pass Game Being Review Bombed With “0s”",
+    date: "Jan 14, 2021",
+    views: "7,792 Views",
+  },
+  {
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2021/01/jonathan-kemper-poSms2EzfNY-unsplash-150x100.jpg",
+    title: "Samsung is Developing Bright MicroLED on Displays for AR Headsets",
+    date: "Jan 14, 2021",
+    views: "6,914 Views",
+  },
+  {
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2021/01/0247d91565b69ed9ddba4ec59ac97963-1-150x86.jpg",
+    title: "Warner Bros. Games Announces Mortal Kombat: Onslaught",
+    date: "Jan 14, 2021",
+    views: "4,418 Views",
+  },
+];
+
+export const gadgetAsideSocialData = [
+  {
+    icon: <FaFacebookF />,
+    count: "1.1K",
+    name: "Facebook",
+    color: "text-blue-600",
+  },
+  {
+    icon: <FaYoutube />,
+    count: "105K",
+    name: "YouTube",
+    color: "text-red-600",
+  },
+  {
+    icon: <FaTiktok />,
+    count: "TikTok",
+    name: "TikTok",
+    color: "text-pink-500",
+  },
+  {
+    icon: <FaWhatsapp />,
+    count: "WhatsApp",
+    name: "WhatsApp",
+    color: "text-green-500",
+  },
+  {
+    icon: <FaTwitter />,
+    count: "68.9K",
+    name: "Twitter",
+    color: "text-blue-400",
+  },
+  {
+    icon: <FaInstagram />,
+    count: "46.4K",
+    name: "Instagram",
+    color: "text-pink-600",
+  },
+];
+export const gadgetAsideReviewData = [
+  {
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/woman-in-3d-virtual-reality-glasses_t20_WQVvL4-768x513.jpg",
+    type: "GAMING",
+    rating: "85%",
+    title: "Pico 4 Review: Should You Actually Buy One Instead Of Quest 2?",
+  },
+  {
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/pexels-leon-3636001-2-450x300.jpg",
+    type: "TECHNOLOGY",
+    rating: "8.1",
+    title: "A Review of the Venus Optics Argus 18mm f/0.95 MFT APO Lens",
+  },
+  {
+    image:
+      "https://smartmag.theme-sphere.com/tech-blog/wp-content/uploads/sites/35/2022/11/surya-devarakonda-lnEM5jOu-mc-unsplash-450x300.jpg",
+    type: "GADGETS",
+    rating: "8.9",
+    title: "DJI Avata Review: Immersive FPV Flying For Drone Enthusiasts",
   },
 ];
