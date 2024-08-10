@@ -8,6 +8,7 @@ import Cards from "../../organic/Cards";
 import SideBarMobile from "../Sidebar/SideBarMobile";
 import { useTheme } from "../../context/DarkModeContext";
 import { CiSun } from "react-icons/ci";
+import { Link } from "react-router-dom";
 
 const Header = ({ isSidebarOpen, toggleSidebar }) => {
   const [isVisible, setIsVisible] = useState(true);
@@ -93,10 +94,17 @@ const Header = ({ isSidebarOpen, toggleSidebar }) => {
       <SideBarMobile isOpen={isSidebarOpen} setIsOpen={toggleSidebar}>
         <div className="text-white pb-5">
           <ul className="flex flex-col gap-2">
-            <li className="border-b-[1px] border-gray-700 pb-3">Home</li>
+            <Link to={"/"} className="border-b-[1px] border-gray-700 pb-3">
+              Home
+            </Link>
             <li className="border-b-[1px] border-gray-700 pb-3">Features</li>
             <li className="border-b-[1px] border-gray-700 pb-3">Technology</li>
-            <li className="border-b-[1px] border-gray-700 pb-3">Gadgets</li>
+            <Link
+              to={"/gadgets"}
+              className="border-b-[1px] border-gray-700 pb-3"
+            >
+              Gadgets
+            </Link>
             <li className="border-b-[1px] border-gray-700 pb-3">Phones</li>
             <li className="border-b-[1px] border-gray-700 pb-3">Buy Theme</li>
           </ul>
