@@ -13,11 +13,23 @@ const Gadgets = () => {
   const {
     data: { gadgets: gadgetsCardsData = [], total = 0 } = {},
     isLoading,
-    error,
+    isError,
   } = useQuery({
     queryKey: ["gadgetCards", page],
     queryFn: () => fetchGadgets(page, limit),
   });
+
+  if (isLoading) {
+    return (
+      <h2 className="h-screen items-center flex justify-center"> Loading..</h2>
+    );
+  }
+
+  if (isError) {
+    return (
+      <h2 className="h-screen items-center flex justify-center"> Error</h2>
+    );
+  }
 
   const totalPages = Math.ceil(total / limit);
 
@@ -39,7 +51,7 @@ const Gadgets = () => {
         <div className="border-l-[3px] flex flex-col justify-center border-[#3C3FDE]">
           <h2 className="pl-2 text-[1.2rem] font-bold">BROWSING:GADGETS</h2>
         </div>
-        <div className="h-[135rem]">
+        <div>
           <div className="flex flex-wrap w-[70%] gadgets__direction gap-5">
             {gadgetsCardsData.length > 0 ? (
               gadgetsCardsData.map((data, index) => (
